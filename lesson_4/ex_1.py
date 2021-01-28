@@ -6,7 +6,7 @@ def pay():
         time, rate, prem = map(float, argv[1:])
         print(f"расчетная зарплата: {time * rate + prem}")
     except ValueError:
-        print("Нужну задать 3 числа")
+        print("Нужно задать 3 числа")
 
 
 pay()
